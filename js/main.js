@@ -9,6 +9,7 @@ let cam = new THREE.OrthographicCamera(
 );
 cam.position.z = 5;
 
+// make the 800x800 canvas to the center of the screen
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(800, 800);
 renderer.domElement.style.display = 'block';
